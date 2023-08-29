@@ -1,0 +1,7 @@
+import base64
+
+image_path = "C:/Users/Kuldeep Singh/OneDrive/Desktop/synclovisApi/known_faces/universalpassimage.jpg"  # Replace with the actual path of your image
+with open(image_path, "rb") as image_file:
+    base64_encoded_image = base64.b64encode(image_file.read()).decode("utf-8")
+
+print("data:image/jpeg;base64," + base64_encoded_image)

@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/8d212c79-7e8e-4005-afb1-e9653d418de4/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/SynclovisApi1",
+  "appService.deploySubpath": "."
+}
